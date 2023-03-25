@@ -1,0 +1,11 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.contact-heading {
+    text-align: center;
+    color: red;
+}
+.contact-parent{
+    margin: 2rem 0 4rem 0;
+    justify-content: center;
+}

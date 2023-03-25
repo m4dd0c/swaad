@@ -1,0 +1,29 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.cuisine-card-parent {
+    border-radius: .1rem;
+    height: 400px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cuisine-card-poster {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.cuisine-card-footer{
+    background: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(0,0,0,0.1));
+    right: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transition: .2s all;
+    padding: .5rem;
+}
+.cuisine-card-parent:hover .cuisine-card-footer * {
+    color: aliceblue;
+}
