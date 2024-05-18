@@ -19,7 +19,7 @@
 ### Usage
 #### Start the client
 bash
-npm run dev
+`npm run dev`
 
 
 ## Technologies Used
